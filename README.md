@@ -35,7 +35,7 @@ Slack のソケットモードを利用しています。
 3. 左メニュー "Event Subscriptions" へ、 "Enable Events" をオンに
    Subscribe to bot events 内で "Add Bot User Event" を押し、 "message.channels" を追加
 4. 左メニュー "OAuth & Permissions" へ
-   Scopes 内で "Add an OAuth Scope" を押し、 "chat:write" を追加
+   Scopes 内で "Add an OAuth Scope" を押し、 "reactions:write" を追加
 5. 左メニュー "App Home" へ、 App の見た目を整える
    主に "App Display Name" など
 6. 左メニュー "Install App" へ、 ワークスペースにインストール
