@@ -91,7 +91,7 @@ func TestConfig_loadReactEmojiForHaiku(t *testing.T) {
 		defer func() { os.Setenv("REACT_EMOJI_FOR_HAIKU", value) }()
 	}
 
-	want := ":some_emoji:"
+	want := "some_emoji"
 	os.Setenv("REACT_EMOJI_FOR_HAIKU", want)
 	config := New()
 	if err := config.loadReactEmojiForHaiku(); err != nil {
