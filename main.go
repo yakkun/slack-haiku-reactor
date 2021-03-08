@@ -73,10 +73,7 @@ func main() {
 				// TODO: 川柳への対応
 				// TODO: 字余り/字足らずへの対応
 
-				// 俳句が含まれていれば、にしているが、反応しるぎる可能性あり？
-				// 完全一致にしたほうがよいかは要検討
-				haikus := haiku.Find(event.Text, []int{5, 7, 5})
-				if len(haikus) == 0 {
+				if !haiku.Match(event.Text, []int{5, 7, 5}) {
 					continue
 				}
 
