@@ -1,6 +1,6 @@
 module github.com/yakkun/slack-haiku-reactor
 
-go 1.15
+go 1.16
 
 require (
 	github.com/ikawaha/kagome v1.11.2 // indirect
