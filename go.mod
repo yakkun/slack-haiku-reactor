@@ -7,5 +7,5 @@ require (
 	github.com/joho/godotenv v1.4.0
 	github.com/mattn/go-haiku v0.0.0-20171205103758-d522829740d3
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/slack-go/slack v0.10.0
+	github.com/slack-go/slack v0.10.1
 )
